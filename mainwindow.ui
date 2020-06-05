@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>291</width>
+    <height>458</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="20" column="0">
+     <widget class="QPlainTextEdit" name="attachments">
+      <property name="plainText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="23" column="0">
+     <widget class="QPushButton" name="StartButton">
+      <property name="text">
+       <string>Start</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Ссылка:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Сообщение:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="22" column="0">
+     <widget class="QSpinBox" name="Delay">
+      <property name="minimum">
+       <number>800</number>
+      </property>
+      <property name="maximum">
+       <number>999999999</number>
+      </property>
+      <property name="singleStep">
+       <number>50</number>
+      </property>
+      <property name="value">
+       <number>1000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="21" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Задержка (в мс)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="LoginButton">
+      <property name="text">
+       <string>Войти</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QPlainTextEdit" name="Message">
+      <property name="plainText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="16" column="0">
+     <widget class="QCheckBox" name="randomize">
+      <property name="text">
+       <string>Рандомный размер сообщения (1-10 повторений)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="0" rowspan="2">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Вложение картинок через запятую (без пробелов)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Пример: photo1234_56789,photo98765_4321</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPlainTextEdit" name="MId">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="plainText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
